@@ -1,0 +1,48 @@
+/*my styles.css */
+body {
+    background: black;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+td,
+th {
+    padding: 10px;
+    color: blue;
+}
+
+table th {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.topdiv{
+text-align: center;
+margin-top: 25px;
+background-color: black;
+}
+h1,
+h2 {
+    color: green;
+    font-family: cursive;
+}
+
+.bg-black {
+    background: black;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: cursive;
+}
+
+h5,p {
+    color: whitesmoke;
+}
+.pad{
+    padding: 5%;
+}
