@@ -77,7 +77,7 @@ function one() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the end of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
     }
     else {
@@ -97,7 +97,7 @@ function two() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
     }
     else {
@@ -116,7 +116,7 @@ function three() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
 
     }
@@ -136,7 +136,7 @@ function four() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
     }
     else {
@@ -155,7 +155,7 @@ function five() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
     }
     else {
@@ -174,7 +174,7 @@ function six() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/batout.html";
+        window.location.href = "../components/batout.html";
         localStorage.setItem("key", total);
     }
     else {
