@@ -12,7 +12,7 @@ var sound2 = new Array();
 sound2[0] = "../GAME/assets/audio/2-1.mp3";
 sound2[1] = "../GAME/assets/audio/2-2.mp3";
 sound2[2] = "../GAME/assets/audio/2-3.mp3";
-function getsound2() {
+function getSound2() {
     var randomNum = Math.floor(Math.random() * sound2.length);
     document.getElementById("myaudio").src = sound2[randomNum];
 }
@@ -21,7 +21,7 @@ var sound3 = new Array();
 sound3[0] = "../GAME/assets/audio/3-1.mp3";
 sound3[1] = "../GAME/assets/audio/3-2.mp3";
 sound3[2] = "../GAME/assets/audio/3-3.mp3";
-function getsound3() {
+function getSound3() {
     var randomNum = Math.floor(Math.random() * sound3.length);
     document.getElementById("myaudio").src = sound3[randomNum];
 }
@@ -30,7 +30,7 @@ var sound4 = new Array();
 sound4[0] = "../GAME/assets/audio/4-1.mp3";
 sound4[1] = "../GAME/assets/audio/4-2.mp3";
 sound4[2] = "../GAME/assets/audio/4-3.mp3";
-function getsound4() {
+function getSound4() {
     var randomNum = Math.floor(Math.random() * sound4.length);
     document.getElementById("myaudio").src = sound4[randomNum];
 }
@@ -39,7 +39,7 @@ var sound5 = new Array();
 sound5[0] = "../GAME/assets/audio/5-1.mp3";
 sound5[1] = "../GAME/assets/audio/Cymbal.mp3";
 sound5[2] = "../GAME/assets/audio/Cymbal.mp3";
-function getsound5() {
+function getSound5() {
     var randomNum = Math.floor(Math.random() * sound5.length);
     document.getElementById("myaudio").src = sound5[randomNum];
 }
@@ -48,7 +48,7 @@ var sound6 = new Array();
 sound6[0] = "../GAME/assets/audio/6-1.mp3";
 sound6[1] = "../GAME/assets/audio/6-2.mp3";
 sound6[2] = "../GAME/assets/audio/6-3.mp3";
-function getsound6() {
+function getSound6() {
     var randomNum = Math.floor(Math.random() * sound6.length);
     document.getElementById("myaudio").src = sound6[randomNum];
 }
@@ -143,7 +143,7 @@ function four() {
         var c = "And Ball races to the boundary line..... 4 it is....";
         document.getElementById("comments").innerHTML = c;
         score();
-        getsound4();
+        getSound4();
     }
 }
 function five() {
@@ -162,7 +162,7 @@ function five() {
         var c = "No ball and a boundary...5 runs to the batting side!";
         document.getElementById("comments").innerHTML = c;
         score();
-        getsound5();
+        getSound5();
     }
 }
 function six() {
@@ -181,6 +181,6 @@ function six() {
         var c = "Over the boundary line.... 6 it is";
         document.getElementById("comments").innerHTML = c;
         score();
-        getsound6();
+        getSound6();
     }
 }
