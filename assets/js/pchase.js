@@ -71,7 +71,7 @@ function score() {
     if(total>=b)
     {
         alert("Wow...Well played, you have won!")
-        window.location.href="../GAME/components/pwin.html"
+        window.location.href="../components/pwin.html"
     }
 }
 function one() {
@@ -83,7 +83,7 @@ function one() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the end of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
         
     }
@@ -104,7 +104,7 @@ function two() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
        
     }
@@ -125,7 +125,7 @@ function three() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
         
 
@@ -146,7 +146,7 @@ function four() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
     }
     else {
@@ -165,7 +165,7 @@ function five() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
     }
     else {
@@ -184,7 +184,7 @@ function six() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/out.html";
+        window.location.href = "../components/out.html";
         localStorage.setItem("score", total);
     }
     else {

@@ -87,7 +87,7 @@ function score() {
     var b = localStorage.getItem("ptarget");
     if (total >= b) {
         alert("Well tried,you have lost !...")
-        window.location.href = "../GAME/components/out.html"
+        window.location.href = "../components/out.html"
     }
 }
 var total = 0;
@@ -102,7 +102,7 @@ function one() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the end of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
 
     }
@@ -128,7 +128,7 @@ function two() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
 
     }
@@ -154,7 +154,7 @@ function three() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
 
 
@@ -180,7 +180,7 @@ function four() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
     }
     else {
@@ -204,7 +204,7 @@ function five() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
     }
     else {
@@ -228,7 +228,7 @@ function six() {
         total = total;
         // getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/components/pwin.html";
+        window.location.href = "../components/pwin.html";
         localStorage.setItem("score", total);
     }
     else {

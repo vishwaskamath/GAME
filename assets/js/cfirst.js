@@ -93,7 +93,7 @@ function one() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the end of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
     }
     else {
@@ -121,7 +121,7 @@ function two() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
     }
     else {
@@ -147,7 +147,7 @@ function three() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
 
     }
@@ -171,7 +171,7 @@ function four() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
     }
     else {
@@ -194,7 +194,7 @@ function five() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
     }
     else {
@@ -217,7 +217,7 @@ function six() {
         total = total;
         //getsoundout();
         alert("OUT !!! And thats the ending of a wonderful innings...! well played")
-        window.location.href = "../GAME/pchase.html";
+        window.location.href = "../pchase.html";
         localStorage.setItem("target", total);
     }
     else {
