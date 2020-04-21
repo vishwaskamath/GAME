@@ -97,7 +97,7 @@ function one() {
         localStorage.setItem("target", total);
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "Nice try by the bowler...";
         document.getElementById("comments").innerHTML = c;
         
         var s = cchoice;
@@ -125,7 +125,7 @@ function two() {
         localStorage.setItem("target", total);
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "Nice try by the bowler...";
         document.getElementById("comments").innerHTML = c;
        
         var s = cchoice;
@@ -152,7 +152,7 @@ function three() {
 
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "The bowler doesnt seems to giveup...";
         document.getElementById("comments").innerHTML = c;
         
         var s = cchoice;
@@ -175,7 +175,7 @@ function four() {
         localStorage.setItem("target", total);
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "The bowler doesnt seems to giveup...";
         document.getElementById("comments").innerHTML = c;
         
         var s = cchoice;
@@ -198,7 +198,7 @@ function five() {
         localStorage.setItem("target", total);
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "The bowler is trying his best...";
         document.getElementById("comments").innerHTML = c;
         
         var s = cchoice;
@@ -221,7 +221,7 @@ function six() {
         localStorage.setItem("target", total);
     }
     else {
-        var c = "Well bowled by the bowler...";
+        var c = "The bowler is trying his best...";
         document.getElementById("comments").innerHTML = c;
         
         var s = cchoice;
