@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" style="background: black">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GAME</title>
-    <link rel="icon" href="assets/images/bat.jpg" type="image/icon type">
+    <link rel="icon" href="../assets/images/bat.jpg" type="image/icon type">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
@@ -24,19 +25,29 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/styles.css">
 </head>
+
 <body>
-    <div class="topdiv" style="margin-top: 20px;">
-        <h2 class="pad">HI ! WELCOME TO BALLE BAAZI</h2>
-            <img src="assets/images/bats.jpg" alt="logo" style="border-radius: 50%; width: 250px;">
+    <div class="topdiv">
+        <h3 class="pad">Well played batsman ! Nice try</h3>
+        
+        <img src="../assets/images/bat.jpg" alt="logo" style="border-radius: 50%; width: 250px;">
         <br>
-        <br>
-        <a href="game.html"> <button type="button" class="btn btn-outline-success waves-effect">PLAY BATTING STAR
-            !</button></a>
-       
-        <a href="../GAME/components/toss.html"> <button type="button" class="btn btn-outline-success waves-effect">PLAY CRICKET MATCH
+          <h3>Your Total Score is :</h3>
+        <h5 id="result"></h5>
+        
+        <h3 id="winner"></h3>
+        <a href="../game.html"> <button type="button" class="btn btn-outline-success waves-effect">PLAY AGAIN
                 !</button></a>
+                <a href="../index.html"> <button type="button" class="btn btn-outline-success waves-effect">MAIN MENU
+                    !</button></a>
+              
+
     </div>
+    <script>
+        document.getElementById("result").innerHTML = localStorage.getItem("key");
+    </script>
 </body>
+
 </html>
